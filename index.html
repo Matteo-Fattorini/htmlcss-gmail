@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <title>Gmail</title>
+</head>
+
+<body>
+  <!-- contenitore principale  -->
+  <div class="conteiner">
+
+    <!-- intestazione con logo e scritta  -->
+    <header>
+      <img id="logo" src="img/logo.jpg" alt="logoGmail">
+      <span class="white big">Gmail</span>
+      <hr>
+    </header>
+
+    <!-- searchbar e unread  -->
+    <section class="searchbar top-margin">
+      <input type="search" name="search" value="" placeholder="Cerca...">
+      <span> <button type="button" name="VAI"> VAI</button> </span>
+      <div class="white medium top-margin"> You have <span id=number>30</span> unread messages </div>
+      <br>
+      <hr>
+    </section>
+
+    <!-- sezione principale, corpo mail  -->
+    <main class="top-margin">
+      <div class="mail-row small read">
+        <input type="checkbox" name="" value="">
+        <span>&starf;</span>
+        <span class="left-content">Oggetto della mail</span>
+        <span class="right-content">...testo della mail</span>
+      </div>
+      <div class="mail-row small unread">
+        <input type="checkbox" name="" value="">
+        <span>&starf;</span>
+        <span class="left-content">Oggetto della mail</span>
+        <span class="right-content">...testo della mail</span>
+      </div>
+      <div class="mail-row small read">
+        <input type="checkbox" name="" value="">
+        <span>&starf;</span>
+        <span class="left-content">Oggetto della mail</span>
+        <span class="right-content">...testo della mail</span>
+      </div>
+      <div class="mail-row small unread">
+        <input type="checkbox" name="" value="">
+        <span>&starf;</span>
+        <span class="left-content">Oggetto della mail</span>
+        <span class="right-content">...testo della mail</span>
+      </div>
+    </main>
+    <hr>
+    <!-- piede di pagina  -->
+    <footer class="white medium"> <strong>GMail</strong> <i> powered by Matteo </i></footer>
+  </div>
+
+
+</body>
+
+</html>
